@@ -29,6 +29,10 @@
 		36F8CECC1593AA3C00E9599C /* DTHTMLAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A7949A4514CAF58C00A8CCDE /* DTHTMLAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36F8CECE1593AA3D00E9599C /* DTHTMLAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A7949A4514CAF58C00A8CCDE /* DTHTMLAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36F8CECF1593AA4200E9599C /* DTHTMLAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A7949A4514CAF58C00A8CCDE /* DTHTMLAttributedStringBuilder.h */; };
+		6E80A773197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; };
+		6E80A774197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; };
+		6E80A775197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; };
+		6E80A776197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; };
 		944A9E6418B5A7F000E41481 /* DTCSSListStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 944A9E6318B5A7F000E41481 /* DTCSSListStyleTest.m */; };
 		94DE4B4418B5968D00F0BA6D /* NSCoder+DTCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DE4B4218B5968D00F0BA6D /* NSCoder+DTCompatibility.h */; };
 		94DE4B4518B5968D00F0BA6D /* NSCoder+DTCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DE4B4218B5968D00F0BA6D /* NSCoder+DTCompatibility.h */; };
@@ -922,6 +926,7 @@
 		1D6058910D05DD3D006BFB54 /* RTDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCoreTextMacros.h; sourceTree = "<group>"; };
 		944A9E6318B5A7F000E41481 /* DTCSSListStyleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCSSListStyleTest.m; sourceTree = "<group>"; };
 		94DE4B4218B5968D00F0BA6D /* NSCoder+DTCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCoder+DTCompatibility.h"; sourceTree = "<group>"; };
 		94DE4B4318B5968D00F0BA6D /* NSCoder+DTCompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCoder+DTCompatibility.m"; sourceTree = "<group>"; };
@@ -1447,21 +1452,21 @@
 				A781FE9917FAABE500A1F5E8 /* libDTASN1.a */,
 				A781FE9B17FAABE500A1F5E8 /* libDTHTMLParser_iOS.a */,
 				A781FE9D17FAABE500A1F5E8 /* libDTHTMLParser_Mac.a */,
-				A781FE9F17FAABE500A1F5E8 /* libDTZipArchive_iOS.a */,
-				A781FEA117FAABE500A1F5E8 /* libDTZipArchive_Mac.a */,
-				A781FEA317FAABE500A1F5E8 /* libDTUTI_iOS.a */,
-				A781FEA517FAABE500A1F5E8 /* libDTUTI_Mac.a */,
+				A7F0C43C1965A0D600D7FAFB /* libDTProgressHUD_iOS.a */,
 				A781FEA717FAABE500A1F5E8 /* libDTReachability_iOS.a */,
 				A781FEA917FAABE500A1F5E8 /* libDTReachability_Mac.a */,
 				A781FEAB17FAABE500A1F5E8 /* libDTSQLite_iOS.a */,
 				A781FEAD17FAABE500A1F5E8 /* libDTSQLite_Mac.a */,
-				A7F0C43C1965A0D600D7FAFB /* libDTProgressHUD_iOS.a */,
-				A781FEAF17FAABE500A1F5E8 /* DTSidePanels Demo.app */,
-				A781FEB117FAABE500A1F5E8 /* DTReachability Demo.app */,
-				A781FEB317FAABE500A1F5E8 /* DTZipArchive.app */,
-				A7F0C43E1965A0D600D7FAFB /* DTProgressHUD Demo.app */,
-				A781FE9317FAABE500A1F5E8 /* Unit Tests.xctest */,
+				A781FEA317FAABE500A1F5E8 /* libDTUTI_iOS.a */,
+				A781FEA517FAABE500A1F5E8 /* libDTUTI_Mac.a */,
+				A781FE9F17FAABE500A1F5E8 /* libDTZipArchive_iOS.a */,
+				A781FEA117FAABE500A1F5E8 /* libDTZipArchive_Mac.a */,
 				A7F0C4401965A0D600D7FAFB /* DTAnimatedGIF Demo.app */,
+				A7F0C43E1965A0D600D7FAFB /* DTProgressHUD Demo.app */,
+				A781FEB117FAABE500A1F5E8 /* DTReachability Demo.app */,
+				A781FEAF17FAABE500A1F5E8 /* DTSidePanels Demo.app */,
+				A781FEB317FAABE500A1F5E8 /* DTZipArchive.app */,
+				A781FE9317FAABE500A1F5E8 /* Unit Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1608,6 +1613,7 @@
 		A7949A4414CAF56300A8CCDE /* HTML Parsing */ = {
 			isa = PBXGroup;
 			children = (
+				6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */,
 				A7C5D00614D7DA6500AF1D75 /* Dual Platform */,
 				A7AE58021725330400A9BF61 /* DTHTMLElement */,
 				A7AE58091725332D00A9BF61 /* DTTextAttachment */,
@@ -1850,6 +1856,7 @@
 				A7EB84D5168B9B1300D686B7 /* DTHorizontalRuleHTMLElement.h in Headers */,
 				A7EB84E5168C657100D686B7 /* DTListItemHTMLElement.h in Headers */,
 				A7EB8539168FA33500D686B7 /* DTStylesheetHTMLElement.h in Headers */,
+				6E80A773197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */,
 				A060479216A8B5770000CAA1 /* DTAttributedLabel.h in Headers */,
 				A70E62D616C24905009B47BF /* DTDictationPlaceholderTextAttachment.h in Headers */,
 				A70E62E016C24DDF009B47BF /* DTDictationPlaceholderView.h in Headers */,
@@ -1896,6 +1903,7 @@
 				A788C9A414863E8700E1AFD9 /* DTLazyImageView.h in Headers */,
 				94DE4B4518B5968D00F0BA6D /* NSCoder+DTCompatibility.h in Headers */,
 				A788C9A914863E8700E1AFD9 /* DTLinkButton.h in Headers */,
+				6E80A774197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */,
 				A788C9BD14863E8700E1AFD9 /* DTWebVideoView.h in Headers */,
 				A788C9EF14863E8700E1AFD9 /* NSString+Paragraphs.h in Headers */,
 				A788CA1814863EC600E1AFD9 /* DTCoreText-Prefix.pch in Headers */,
@@ -1966,6 +1974,7 @@
 				A7F7EFB31573603100F5A4D0 /* DTLazyImageView.h in Headers */,
 				94DE4B4618B5968D00F0BA6D /* NSCoder+DTCompatibility.h in Headers */,
 				A7F7EFB41573603100F5A4D0 /* DTLinkButton.h in Headers */,
+				6E80A775197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */,
 				A7F7EFB51573603100F5A4D0 /* DTWebVideoView.h in Headers */,
 				A7F7EFB71573603100F5A4D0 /* NSString+Paragraphs.h in Headers */,
 				A7F7EFBA1573603100F5A4D0 /* DTCoreText-Prefix.pch in Headers */,
@@ -2037,6 +2046,7 @@
 				E2262DFE163833AD00BFDAD7 /* DTTextBlock.h in Headers */,
 				E2262EA41638485F00BFDAD7 /* DTCoreText.h in Headers */,
 				A72D97611684B38B005F8BA5 /* DTCoreTextFunctions.h in Headers */,
+				6E80A776197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */,
 				A7EB84A0168B3E9D00D686B7 /* DTHTMLParserNode.h in Headers */,
 				A7EB84AA168B3EC000D686B7 /* DTHTMLParserTextNode.h in Headers */,
 				94DE4B4718B5968D00F0BA6D /* NSCoder+DTCompatibility.h in Headers */,
