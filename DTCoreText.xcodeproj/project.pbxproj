@@ -29,10 +29,10 @@
 		36F8CECC1593AA3C00E9599C /* DTHTMLAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A7949A4514CAF58C00A8CCDE /* DTHTMLAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36F8CECE1593AA3D00E9599C /* DTHTMLAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A7949A4514CAF58C00A8CCDE /* DTHTMLAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36F8CECF1593AA4200E9599C /* DTHTMLAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A7949A4514CAF58C00A8CCDE /* DTHTMLAttributedStringBuilder.h */; };
-		6E80A773197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; };
-		6E80A774197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; };
-		6E80A775197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; };
-		6E80A776197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; };
+		6E80A773197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E80A774197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E80A775197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E80A776197618FE00CD8AFB /* DTCoreTextMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		944A9E6418B5A7F000E41481 /* DTCSSListStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 944A9E6318B5A7F000E41481 /* DTCSSListStyleTest.m */; };
 		94DE4B4418B5968D00F0BA6D /* NSCoder+DTCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DE4B4218B5968D00F0BA6D /* NSCoder+DTCompatibility.h */; };
 		94DE4B4518B5968D00F0BA6D /* NSCoder+DTCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DE4B4218B5968D00F0BA6D /* NSCoder+DTCompatibility.h */; };
@@ -926,7 +926,7 @@
 		1D6058910D05DD3D006BFB54 /* RTDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCoreTextMacros.h; sourceTree = "<group>"; };
+		6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTCoreTextMacros.h; path = Core/Source/DTCoreTextMacros.h; sourceTree = "<group>"; };
 		944A9E6318B5A7F000E41481 /* DTCSSListStyleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCSSListStyleTest.m; sourceTree = "<group>"; };
 		94DE4B4218B5968D00F0BA6D /* NSCoder+DTCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCoder+DTCompatibility.h"; sourceTree = "<group>"; };
 		94DE4B4318B5968D00F0BA6D /* NSCoder+DTCompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCoder+DTCompatibility.m"; sourceTree = "<group>"; };
@@ -1485,6 +1485,7 @@
 			children = (
 				A70B4C9E1486558200873A4A /* DTCoreText.h */,
 				A7A672B91532F2D100920A18 /* DTCompatibility.h */,
+				6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */,
 				A788CA1514863EC600E1AFD9 /* DTCoreText-Prefix.pch */,
 				A788CA1614863EC600E1AFD9 /* DTCoreText-Info.plist */,
 				A788C90D14863E8700E1AFD9 /* Source */,
@@ -1613,7 +1614,6 @@
 		A7949A4414CAF56300A8CCDE /* HTML Parsing */ = {
 			isa = PBXGroup;
 			children = (
-				6E80A772197618FE00CD8AFB /* DTCoreTextMacros.h */,
 				A7C5D00614D7DA6500AF1D75 /* Dual Platform */,
 				A7AE58021725330400A9BF61 /* DTHTMLElement */,
 				A7AE58091725332D00A9BF61 /* DTTextAttachment */,
